@@ -1,0 +1,30 @@
+body{
+    margin: 0 3%!important;
+}
+/* COLOR STYLE */ 
+.bgOrange{
+    background-color:#FA5C19 ;
+    
+}
+.cWhite{
+    color: white!important;
+}
+.connexBtn{
+
+    padding:  0.2em 1.5em ;
+    border-radius: 0.4em;
+}
+.selected{
+    position: relative;
+    box-shadow: 15px 24px 3px -24px magenta ;
+}
+.selected:before{
+    content: "";
+    position: absolute;
+    left    : 30%;
+    bottom  : 0;
+    height  : 1px;
+    width   : 40%;  /* or 100px */
+    border-bottom:4px solid #FA5C19;
+    border-radius: 1em;
+}
