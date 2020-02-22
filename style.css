@@ -1,13 +1,19 @@
+/* STYLE TAG */
+
 body{
     height: auto;
+    font-family: 'Lato';
 }
+a:hover{
+    color:#FA5C19;
+}
+/*************/
+/*FONT*/
+/**/
 
-.maxW{
-    max-width: 1180px!important;
-    
-    margin: auto!important;
-}
-/* COLOR STYLE */ 
+/* COLOR STYLE*/ 
+
+
 .bgOrange{
     background-color:#FA5C19 ;
     
@@ -25,7 +31,59 @@ body{
 .bgBlanc{
     background-color: white;
 }
+
+
+
+
 /********/
+
+/* POSITIONNEMENT */
+
+.negativMargin{
+    margin-bottom: -80px;
+}
+.pstPdg{
+    padding-top: 80px;
+}
+
+.pdSpe{
+    padding-top: 5%;
+}
+.pdbSpe{
+    padding-bottom: 30%;
+}
+
+
+/********/
+
+/*HOVER EFFECT*/
+
+.item:hover{
+   
+    border-color: #FA5C19;
+    
+    transition: 0.5s;
+}
+.customSubmit:hover{
+    color:white;
+    transition: 0.5s;
+    background-color: #FA5C19;
+}
+.connexBtn:hover{
+    transition: 0.5s;
+    background-color: rgb(214, 80, 22) ;
+
+}
+/********/
+
+/*HEADER*/
+
+.maxW{
+    max-width: 1180px!important;
+    
+    margin: auto!important;
+}
+
 .connexBtn{
 
     padding:  0.2em 1.5em!important ;
@@ -33,11 +91,7 @@ body{
     transition: 0.5s;
 
 }
-.connexBtn:hover{
-    transition: 0.5s;
-    background-color: rgb(214, 80, 22) ;
 
-}
 .selected{
     position: relative;
     
@@ -52,12 +106,9 @@ body{
     border-bottom:4px solid #FA5C19;
     border-radius: 1em;
 }
-.negativMargin{
-    margin-bottom: -80px;
-}
-.pstPdg{
-    padding-top: 80px;
-}
+/********/
+
+/*MAIN*/
 .mainContent{
    
     height: 500px;
@@ -93,12 +144,7 @@ body{
     border-color: rgba(250, 92, 25, 0);
     transition: 0.3s;
 }
-.item:hover{
-   
-    border-color: #FA5C19;
-    
-    transition: 0.5s;
-}
+
 .corpsG{
     font-size: 1.7em;
 }
@@ -111,12 +157,11 @@ body{
    
 }
 
-.pdSpe{
-    padding-top: 5%;
-}
-.pdbSpe{
-    padding-bottom: 30%;
-}
+
+/********/
+
+
+/*FOOTER*/
 .customForm{
     border-radius: 0.3em;
     max-width: 50%;
@@ -124,7 +169,7 @@ body{
 .customInput{
     border: none;
     width: 30vw;
-    max-width: 90%;
+    max-width: 87%;
 }
 .customSubmit{
     transition: 0.3s;
@@ -134,11 +179,10 @@ body{
     
    
 }
-.customSubmit:hover{
-    color:white;
-    transition: 0.5s;
-    background-color: #FA5C19;
-}
+
+/********/
+
+
 
 @media (min-width: 991px) {
     
