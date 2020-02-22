@@ -81,6 +81,24 @@
 .item{
     border-radius: 1em;
 }
+.corpsG{
+    font-size: 1.7em;
+}
+.histoire{
+    
+    background-image: url(imgs/pLogo.png);
+    background-repeat: no-repeat;
+    
+    
+   
+}
+
+.pdSpe{
+    padding-top: 5%;
+}
+.pdbSpe{
+    padding-bottom: 30%;
+}
 
 @media (min-width: 991px) {
     
@@ -90,6 +108,10 @@
         padding-left: 15px;
         flex: 0 0 14.999994%;
         max-width: 14.999994%;
+    }
+    .mrgSpe{
+        margin-left: 34%!important;
+        
     }
     
   }
