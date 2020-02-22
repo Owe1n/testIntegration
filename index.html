@@ -63,6 +63,17 @@
                     <p class="mt-3 corps">Tandis que les technologies changent, que de nouveaux acteurs réinventent l’expérience du service, les attentes des utilisateurs se démultiplient. Comment y répondre ? Nous voulons relever avec vous ce challenge</p>
                 </div>
             </div>
+            <div class="row services mt-5">
+                <div class="col-12  ">
+                    <h3>Nos services</h3>
+                </div>
+                <ul id="app" class="col-12 row mx-auto d-flex justify-content-between">
+                        <service v-for="service in services" :srcimg="service.imgSrc" categorie="Service" :service="service.Service" ></service>
+                        <service v-for="service in services" :srcimg="service.imgSrc" categorie="Service" :service="service.Service" ></service>
+                    </ul>
+                
+                
+            </div>
         </main>
     </div>
 
@@ -81,6 +92,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
