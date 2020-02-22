@@ -1,4 +1,6 @@
-
+body{
+    height: auto;
+}
 
 .maxW{
     max-width: 1180px!important;
@@ -28,6 +30,13 @@
 
     padding:  0.2em 1.5em!important ;
     border-radius: 0.4em;
+    transition: 0.5s;
+
+}
+.connexBtn:hover{
+    transition: 0.5s;
+    background-color: rgb(214, 80, 22) ;
+
 }
 .selected{
     position: relative;
@@ -80,6 +89,15 @@
 }
 .item{
     border-radius: 1em;
+    border-style: solid;
+    border-color: rgba(250, 92, 25, 0);
+    transition: 0.3s;
+}
+.item:hover{
+   
+    border-color: #FA5C19;
+    
+    transition: 0.5s;
 }
 .corpsG{
     font-size: 1.7em;
@@ -98,6 +116,28 @@
 }
 .pdbSpe{
     padding-bottom: 30%;
+}
+.customForm{
+    border-radius: 0.3em;
+    max-width: 50%;
+}
+.customInput{
+    border: none;
+    width: 30vw;
+    max-width: 90%;
+}
+.customSubmit{
+    transition: 0.3s;
+    border : none;
+    border-radius: 0.3em;
+    
+    
+   
+}
+.customSubmit:hover{
+    color:white;
+    transition: 0.5s;
+    background-color: #FA5C19;
 }
 
 @media (min-width: 991px) {
